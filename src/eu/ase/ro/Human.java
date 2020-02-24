@@ -21,4 +21,10 @@ public class Human implements Runner{
 		else
 			return 10;
 	}
+	@Override
+	public String toString() {
+		return "Human [age=" + age + "]";
+	}
+	
+	
 }
